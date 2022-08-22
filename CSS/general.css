@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --color_verde: #34A93C;
+    --color_gris: #323232;
+    --main-font: sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+
+/*Agregar esto al body en el archivo exterior de estilo al contenido en caso de que el body lleve fondo */
+
+/*  background-image: url(../imagenes/imagenes_contenido/bg_formularios.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/

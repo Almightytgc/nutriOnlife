@@ -1,0 +1,347 @@
+/*Inicio sección 1111111*/
+.seccion1 {
+    margin-top: 120px;
+    width: 100%;
+    height: 41.5vh;
+    display: flex;
+}
+
+.seccion1_img {
+    width: 50%;
+    margin: 0 5px;
+    background-image: url(../imagenes/imagenes_contenido/index_seccion1.jpg);
+    border-radius: 10px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seccion1_texto {
+    width: 50%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo1 {
+    width: 100%;
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 35px;
+    color: var(--color_verde);
+    font-weight: bold;
+}
+
+.texto1 {
+    width: 100%;
+    padding: 25px;
+    color: var(--color_gris);
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.content_nota{
+    width: 100%;
+    text-align: center;
+    color: var(--color_verde);
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.creditos {
+    width: 100%;
+    text-align: center;
+    color: var(--color_gris);
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+
+/*inicio seccion 1.2*/
+.seccion1b {
+    width: 100%;
+    height: 41.5vh;
+    display: flex;
+}
+
+.seccion1b div {
+    width: 33.3%;
+}
+
+.seccion1b1_img, .seccion1b2_img, .seccion1b3_img {
+    margin: 5px;
+}
+
+.seccion1b1_img {
+    border-radius: 10px;
+    background-image: url(../imagenes/imagenes_contenido/seccion1_imga.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seccion1b2_img {
+    border-radius: 10px;
+    background-image: url(../imagenes/imagenes_contenido/seccion1_imgb.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seccion1b3_img {
+    border-radius: 10px;
+    background-image: url(../imagenes/imagenes_contenido/seccion1_imgc.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Inicio sección 2*/
+
+.seccion2{
+    background-color: var(--color_gris);
+    padding: 40px;
+}
+
+.quienes_somos{
+    color: var(--color_verde);
+    font-family: var(--main-font);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.tex1sec2{
+    color: var(--color_verde);
+    font-family: var(--main-font);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin: 50px;
+    font-weight: 700;
+    font: bold;
+    text-align: justify;
+}
+
+.cont_titulo2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.contenedor2{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.titulo2 {
+    color: var(--color_verde);
+    font-family: var(--main-font);
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+}
+
+.running{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 80px;
+    width: 450px;
+}
+
+.manzana{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 80px;
+    width: 450px;
+}
+
+.running_img , .manzana_img{
+    width: 120px;
+    display: flex;
+    margin: auto;
+}
+
+.running h3 , .manzana h3{
+    text-align: center;
+    color: var(--color_verde);
+    font-family: var(--main-font);
+    font: bold;
+    font-size: 25px;
+    padding-top: 35px;
+}
+
+.running p , .manzana p{
+    text-align: justify;
+    color: var(--color_verde);
+    font-family: var(--main-font);
+    font: bold;
+    font-size: 20px;
+    padding-top: 35px;
+}
+
+.content_nota2{
+    width: 100%;
+    color: var(--color_verde);
+    font-size: 25px;
+    font-family: var(--main-font);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/*Inicio seccion 3*/
+.sec3{
+    background-color: var(--color_gris);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--main-font);
+    color: var(--color_verde);
+    font-family: var(--main-font);
+    font-size: 25px;
+    padding: 25px;
+
+}
+
+.h1tex{
+    font-family: var(--main-font);
+    color: var(--color_verde);
+    font-family: var(--main-font);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.divp{
+    display: flex;
+    justify-content: center;
+}
+
+.divh3{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.divp div {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divp div li {
+    margin: 10px;
+}
+
+/*Inicio seccion 4*/
+.contenedor4{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.h1p2{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--main-font);
+    color: var(--color_verde);
+    font-family: var(--main-font);
+    font-size: 30px;
+    justify-content: center;
+}
+
+.jugos_img{
+    width: 325px;
+    border: solid 5px var(--color_verde);
+    border-radius: 25px;
+    margin: 25px;
+}
+
+
+/*Sección 6*/
+.seccion6 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color_gris);
+    color: var(--color_verde);
+    font-family: var(--main-font);
+    font-weight: bold;
+}
+
+.titulo6 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.tex1sec6, .lista_sec6 li {
+    font-size: 25px;
+    padding: 15px;
+}
+
+.lista_sec6 { 
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*seccion 7*/
+
+.seccion7 {
+    color: var(--color_verde);
+    font-size: 30px;
+    font-family: var(--main-font);
+    width: 100%;
+}
+
+
+.titulo7 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 25px;
+}
+
+.content_nota2{
+    width: 100%;
+    color: var(--color_verde);
+    font-size: 25px;
+    font-family: var(--main-font);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+
+
+

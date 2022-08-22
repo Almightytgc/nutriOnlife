@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NutriOnLife</title>
+    
+        <!--cosas generales-->
+        <link rel="stylesheet" href="../CSS/registro.css"> <!--estilo del body-->
+        <link rel="icon" href="../imagenes/logosAndLetra/fav_icons/fav_icon.png"> <!--fav icon-->
+        <link rel="stylesheet" href="../CSS/navAndFooter.css"> <!--estructura general del nav y footer-->
+        <link rel="stylesheet" href="../CSS/general.css"> <!--reseteo general, variables y estructura general del body-->
+    
+        <!--loader-->
+        <link rel="stylesheet" href="../CSS/loader.css"> <!--Css para loader de la página-->
+        <script src="../JS/script_loader.js"></script> <!--script para loader de la página-->
+
+        <script src="../JS/traductorRegistro.js" defer></script>
+    </head>
+    <body>
+    
+        <!--Loader de la página-->
+        <div class="contenedor_loader">
+            <div class="loader">
+            </div>
+        </div>
+    
+    
+        <!--inicio página-->
+        <nav>
+            <div class="navbar"> <!--contenedor de los elementos para el nav-->
+                <div class="div_logo">
+                    <img src="../imagenes/logosAndLetra/logos/normal/logo crea j.png" alt="logo NutriOnlife" class="logo"> <!--Logo-->
+                    <img src="../imagenes/logosAndLetra/letra_logo/normal/letra_logo_verde.png" alt="nombre" class="name_logo"> <!--Letra de "NutriOnlife"-->
+                </div>
+        
+                <div class="nav_options"> <!--contenedor para enlaces del nav-->
+                    <ul>
+                        <li> <a href="../HTML/index.html" id="1">Inicio</a></li> 
+                        <li> <a href="../HTML/logInCopia.html" id="2">Iniciar sesión</a></li> 
+                    </ul>
+        
+                    <!--boton cambiar de idioma-->
+                    <div class="contenedor">
+                        <div class="contenedorTexto">
+                             <p id="3">Cambiar idioma</p>
+                             <img src="../imagenes/iconos/idioma/flechaABajo.png" class="flechaAbajo">
+                        </div> 
+        
+                        <div class="opciones">
+                             <div class="opcionPais" id="esp" onclick="traducir(this)">
+                                 <img src="../imagenes/iconos/idioma/espania.png" alt="" class="bandera">
+                                <p id="4">Español</p>
+                             </div>
+        
+                             <div class="opcionPais" id="eng" onclick="traducir(this)">
+                                 <img src="../imagenes/iconos/idioma/reinoUnido.png" alt="" class="bandera">
+                                 <p id="5">Inglés</p>
+                             </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </nav>
+
+<!--inicio form-->
+<div class="container_form">
+    <br><br><br><br><br>
+    <form action="../PHP/main.php" method="post"> 
+        <div class="div_form">
+                <fieldset>
+                    <legend id="6">Registrarse</legend>
+                    <label class="input_form" id="7">Digite sus nombres <input type="text" name="nombre"  required> </label>
+                    <br>
+                    <label class="input_form" id="8">Digite sus apellidos <input type="text" name="apellido" required></label>
+                    <br>
+                    <label class="input_form" id="9">Digite su correo electrónico <input type="email" name="correo"  required></label>
+                    <br>
+                    <label class="input_form" id="10">Digite su contraseña  <input type="password" name="contraseña"  required></label>
+                    <br>
+                    <label class="input_form" id="11">Digite su número telefónico (opcional)  <input type="text" name="telefono" required></label>
+                    <br>
+                </fieldset>
+   
+
+        </div>
+    
+        <div class="botones">
+            <div class="back">   
+                <a class="botonBack" href="../HTML/index.html" id="12">Regresar</a>
+            </div>
+            
+            <div class="div_crear">   
+                <button name="Registrarse" type="submit" id="13"> Registrarse</button>
+            </div>
+            
+        </div>
+    </form>
+</div>
+
+
+<div class="creditos">
+    <p id="14">Imagen de fondo extraída de pexels.com</p>
+</div>
+
+<footer>
+    <div class="footer">
+        <div class="redes">
+            <div class="iconos_redes">
+                <a href="#"><img src="../imagenes/iconos/facebook.png" alt="logo facebook" class="logo_facebook"></a>  
+                <a href="https://www.instagram.com/nutri0nlife/"><img src="../imagenes/iconos/instagram.jpeg" alt="logo_instagram" class="logo_instagram"></a>  
+             </div>
+             <div class="redes_text">
+                <p id="15">Síguenos en nuestras redes sociales</p>
+             </div>
+             <div class="footer_footer">
+                <div class="copyright">
+                    <p>NutriOnlife©</p>
+                    <p id="16">2022 Todos los derechos reservados</p>
+                </div>
+                <div class="contactenos">
+                    <p id="17">Contáctenos</p>
+                    <hr>
+                    <p>
+                    +503 7898 - 1256 
+                    <br>
+                    nutriOnlifecdb@gmail.com</p>
+                </div>
+             </div>
+        </div>
+</footer>
+</body>
+</html>
+
+<!--script para boton de idiomas-->
+<script>
+    document.querySelector(".contenedor").addEventListener("click", ()=>{
+    document.querySelector(".opciones").classList.toggle("display");
+    })
+</script>

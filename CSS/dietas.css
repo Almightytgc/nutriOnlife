@@ -1,0 +1,198 @@
+
+
+body {
+    background-image: url(../imagenes/imagenes_contenido/bg_dietas.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/*inicio de nav*/
+nav {
+    background-color: var(--color_gris);
+    width: 100%;
+    height: 120px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.div_logo {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    padding: 15px;
+}
+
+.name_logo {
+    width: 225px;
+}
+
+.nav_options {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.nav_options li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    margin: 0 35px;
+}
+
+.nav_options a {
+    text-decoration: none;
+    color: var(--color_verde);
+}
+
+.nav_options a:hover {
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+/*inicio contenido*/
+
+/*icono*/
+.div_icono {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manzana {
+    margin: auto;
+    width: 70px;
+    background-color: var(--color_gris);
+    border: solid 7px var(--color_verde);
+    border-radius: 15px;
+    padding: 15px 20px;
+}
+
+
+/*opciones de dietas*/
+.contenedor_dieta, .contenedor_dieta2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dieta {
+    background-color: var(--color_gris);
+    color: var(--color_verde);
+    font-size: 25px;
+    border: solid 7px var(--color_verde);
+    border-radius: 15px;
+    padding: 25px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    width: 300px;
+    text-align: center;
+}
+
+.dieta:hover {
+    background-color: #fff;
+    color: var(--color_verde);
+    transition: 0.5s ease-in-out;
+}
+
+
+.botones{
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*texto aclaración*/
+.texto_aclaracion {
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.texto_aclaración p {
+    background-color: var(--color_gris);
+    border: solid 10px var(--color_verde);
+    border-radius: 15px;
+    text-align: center;
+    color: var(--color_verde);
+    font-family: var(--main-font);
+    font-size: 25px;
+    padding: 5px;
+}
+
+/*Boton regrsar*/
+.div_back {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+
+.back {
+    border: solid 7px var(--color_verde);
+    background-color: var(--color_gris);
+    padding: 10px;
+    font-size: 35px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    color: var(--color_verde);
+    border-radius: 15px;
+    margin-left: 30px;
+}
+
+.back a {
+    text-decoration: none;
+    color: var(--color_verde);
+}
+
+.back:hover {
+    border: solid 7px var(--color_verde);
+    transition: all 0.5s ease-in-out;
+    background-color: #fff;
+}
+
+/*creditos*/
+.creditos {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.creditos p {
+    margin-right: 20px;
+    margin-bottom: 26px;
+    color: #fff;
+    font-size: 15px;
+    font-family: var(--main-font);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+

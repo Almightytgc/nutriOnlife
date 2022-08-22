@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriOnlife</title>
+    <link rel="stylesheet" href="../CSS/dietas.css"> <!--estilo del body-->
+    <link rel="icon" href="../imagenes/logosAndLetra/fav_icons/fav_icon.png"> <!--fav icon-->
+    <link rel="stylesheet" href="../CSS/navAndFooter_user.css"> <!--estructura general del nav y footer-->
+    <link rel="stylesheet" href="../CSS/general.css"> <!--reseteo general, variables y estructura general del body-->
+
+            <!--loader-->
+            <link rel="stylesheet" href="../CSS/loader.css"> <!--Css para loader de la página-->
+            <script src="../JS/script_loader.js"></script> <!--script para loader de la página-->
+
+            <script src="../JS/dietas.js" defer></script>
+</head>
+<body>
+
+            <!--Loader de la página-->
+            <div class="contenedor_loader">
+                <div class="loader">
+                </div>
+            </div>
+        <!--inicio página-->
+        <nav>
+            <div class="navbar"> <!--contenedor de los elementos para el nav-->
+                <div class="div_logo">
+                    <img src="../imagenes/logosAndLetra/logos/normal/logo crea j.png" alt="logo NutriOnlife" class="logo"> <!--Logo-->
+                    <img src="../imagenes/logosAndLetra/letra_logo/normal/letra_logo_verde.png" alt="nombre" class="name_logo"> <!--Letra de "NutriOnlife"-->
+                </div>
+        
+                <div class="nav_options"> <!--contenedor para enlaces del nav-->
+                        <ul>
+                            <li> <a href="../HTML/registro.html" id="1">Inicio</a></li> 
+                            <li> <a href="../HTML/logInCopia.html" id="2">Iniciar sesión</a></li> 
+                        </ul>
+                        <img src="../imagenes/iconos/icono_user.png" alt="icono de usuario" class="icono_user">
+                
+                <!--boton cambiar de idioma-->
+                <div class="contenedor">
+                    <div class="contenedorTexto">
+                         <p id="3">Cambiar idioma</p>
+                         <img src="../imagenes/iconos/idioma/flechaABajo.png" class="flechaAbajo">
+                    </div> 
+    
+                    <div class="opciones">
+                         <div class="opcionPais" id="esp" onclick="traducir(this)">
+                             <img src="../imagenes/iconos/idioma/espania.png" alt="" class="bandera">
+                             <p id="4">Español</p>
+                         </div>
+    
+                         <div class="opcionPais" id="eng" onclick="traducir(this)">
+                             <img src="../imagenes/iconos/idioma/reinoUnido.png" alt="" class="bandera">
+                             <p id="5">Inglés</p>
+                         </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </nav>
+
+<!--inicio body-->
+    <br><br><br><br><br><br>
+    <div class="div_icono"> 
+        <img src="../imagenes/iconos/manzana.png" alt="manzana" class="manzana">
+    </div>
+    
+
+    <div class="contenedor_dieta">
+        <div class="dieta"><p id="6">Dieta</p></div>
+        <div class="dieta"><p id="7">Dieta</p></div>
+        <div class="dieta"><p id="8">Dieta</p></div>
+    </div>
+
+    <div class="contenedor_dieta2">
+        <div class="dieta"><p id="9">Dieta</p></div>
+        <div class="dieta"><p id="10">Dieta</p></div>
+        <div class="dieta"><p id="11">Dieta</p></div>
+    </div>
+
+    <div class="botones">
+        <div class="back">   
+           <label> <a href="../HTML/welcomeCopia.html" class="back_text">Regresar</a></label>
+       </div>
+       <div class="texto_aclaración">
+           <p id="12">Recuerda que la mejor opción siempre será visitar a un nutricionista </p>
+       </div>
+   </div>
+
+
+    <div class="creditos">
+        <p id="13">Imagen de fondo extraída de pexels.com</p>
+    </div>
+
+    <!--inicio footer-->
+    <footer>
+        <div class="footer">
+            <div class="redes">
+                <div class="iconos_redes">
+                    <a href="#"><img src="../imagenes/iconos/facebook.png" alt="logo facebook" class="logo_facebook"></a>  
+                    <a href="https://www.instagram.com/nutri0nlife/"><img src="../imagenes/iconos/instagram.jpeg" alt="logo_instagram" class="logo_instagram"></a>  
+                 </div>
+                 <div class="redes_text">
+                    <p id="14">Síguenos en nuestras redes sociales</p>
+                 </div>
+                 <div class="footer_footer">
+                    <div class="copyright">
+                        <p>NutriOnlife©</p>
+                        <p id="15">2022 Todos los derechos reservados</p>
+                    </div>
+                    <div class="contactenos">
+                        <p id="16">Contáctenos</p>
+                        <hr>
+                        <p>
+                        +503 7898 - 1256 
+                        <br>
+                        nutriOnlifecdb@gmail.com</p>
+                    </div>
+                 </div>
+            </div>
+    </footer>
+
+</body>
+</html>
+
+<!--script para boton de idiomas-->
+<script>
+    document.querySelector(".contenedor").addEventListener("click", ()=>{
+    document.querySelector(".opciones").classList.toggle("display");
+    })
+</script>

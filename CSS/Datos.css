@@ -1,0 +1,142 @@
+body {
+    background-image: url(../imagenes/imagenes_contenido/bg_formularios.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*inicio body*/
+
+.container_form {
+    width: 100%;
+}
+
+.div_form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+}
+
+.div_form fieldset {
+    background-color: var(--color_gris);
+    border: solid var(--color_gris);
+}
+
+.div_form legend {
+    margin: auto;
+    border: solid 10px var(--color_verde);
+    background-color: var(--color_gris);
+    color: var(--color_verde);
+    padding: 5px 20px;
+    font-size: 35px;
+    font-family: var(--main-font);
+    font-weight: bold;
+}
+
+.input_form {
+    display: flex;
+    justify-content: space-between;
+    color: var(--color_verde);
+    padding: 20px 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: var(--main-font);
+}
+
+.input_form input {
+    margin: 0 10px;
+}
+
+select {
+    width: 313px;
+    margin: 10px;
+    text-align: center;
+}
+
+::placeholder {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+
+}
+
+
+.botones{
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+/*Boton regrsar*/
+.div_back {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.back {
+    border: solid 7px var(--color_verde);
+    background-color: var(--color_gris);
+    padding: 10px;
+    font-size: 35px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    color: var(--color_verde);
+}
+
+.back a {
+    text-decoration: none;
+    color: var(--color_verde);
+}
+
+
+
+/*Inicio botón de enviar*/
+
+.div_enviar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.div_enviar a {
+    border: solid 10px var(--color_verde);
+    background-color: var(--color_gris);
+    color: var(--color_verde);
+    padding: 10px;
+    font-size: 35px;
+    font-family: var(--main-font);
+    font-weight: bold;
+}
+
+.div_enviar a {
+    text-decoration: none;
+    color: var(--color_verde);
+}
+
+.back:hover, .div_enviar a:hover {
+    border: solid 10px var(--color_verde);
+    transition: all 0.5s ease-in-out;
+    background-color: #fff;
+}
+
+/*creditos*/
+.creditos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.creditos p {
+    margin-right: 20px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    font-family: var(--main-font);
+    font-weight: bold;
+}

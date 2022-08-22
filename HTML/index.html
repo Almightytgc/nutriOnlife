@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriOnLife</title>
+
+    <!--cosas generales-->
+    <link rel="stylesheet" href="../CSS/estilo_index.css"> <!--estilo del body-->
+    <link rel="icon" href="../imagenes/logosAndLetra/fav_icons/fav_icon.png"> <!--fav icon-->
+    <link rel="stylesheet" href="../CSS/navAndFooter.css"> <!--estructura general del nav y footer-->
+    <link rel="stylesheet" href="../CSS/general.css"> <!--reseteo general, variables y estructura general del body-->
+
+    <!--loader-->
+    <link rel="stylesheet" href="../CSS/loader.css"> <!--Css para loader de la página-->
+    <script src="../JS/script_loader.js"></script> <!--script para loader de la página-->
+
+    <script src="../JS/traductor.js" defer></script>
+</head>
+<body>
+
+    <!--Loader de la página-->
+    <div class="contenedor_loader">
+        <div class="loader">
+        </div>
+    </div>
+
+
+    <!--inicio página-->
+    <nav>
+        <div class="navbar"> <!--contenedor de los elementos para el nav-->
+            <div class="div_logo">
+                <img src="../imagenes/logosAndLetra/logos/normal/logo crea j.png" alt="logo NutriOnlife" class="logo"> <!--Logo-->
+                <img src="../imagenes/logosAndLetra/letra_logo/normal/letra_logo_verde.png" alt="nombre" class="name_logo"> <!--Letra de "NutriOnlife"-->
+            </div>
+    
+            <div class="nav_options" id="nav_options"> <!--contenedor para enlaces del nav-->
+                <ul>
+                    <li> <a href="../HTML/registro.html" id="1">Registrarse</a></li> 
+                    <li> <a href="../HTML/logInCopia.html" id="2">Iniciar sesión</a></li> 
+                </ul>
+
+                <!--boton cambiar de idioma-->
+                <div class="contenedor">
+                    <div class="contenedorTexto">
+                         <p id="3">Cambiar idioma</p>
+                         <img src="../imagenes/iconos/idioma/flechaABajo.png" class="flechaAbajo">
+                    </div> 
+             
+                    <div class="opciones">
+                         <div class="opcionPais" id="esp" onclick="traducir(this)">
+                             <img src="../imagenes/iconos/idioma/espania.png" alt="" class="bandera">
+                             <p id="4">Español</p>
+                         </div>
+             
+                         <div class="opcionPais" id="eng" onclick="traducir(this)">
+                             <img src="../imagenes/iconos/idioma/reinoUnido.png" alt="" class="bandera">
+                             <p id="5">Inglés</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!--Sección 1-->
+    <div class="seccion1">
+        <div class="seccion1_img"></div>
+
+        <div class="seccion1_texto">
+            <h2 class="titulo1" id="6" >Un exterior saludable inicia en tu interior </h2>
+            <p class="texto1" id="7" >Con NutriOnlife aprende a ejercitarte y alimentarte de forma consciente. <br> Te brindaremos dietas y ejercicios según tus datos.</p>
+            <div class="content_nota">
+                <p class="nota" id="8" >Recuerda que la mejor opción siempre será visitar a un nutricionista </p>
+            </div>
+            <div class="creditos">
+                <p id="9">Las imágenes utilizadas han sido extraída de pexels.com y unsplash.com</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="seccion1b">
+        <div class="seccion1b1_img">
+
+        </div>
+        <div class="seccion1b2_img">
+
+        </div>
+        <div class="seccion1b3_img">
+
+        </div>
+    </div>
+
+        <!--Inicio sección 2-->
+        <div class="seccion2">
+            <div class="quienes_somos">
+                <h2 id="10">¿Quiénes somos?</h2>
+            </div>    
+            <div class="tex1sec2">
+                <p id="11">
+                    Somos una empresa que busca mejorar ser una ayuda práctica para aquellos que buscan cuidar de su salud  la salud, este proyecto surge con el pensar de lo importante que es tener un buen estado físico y una alimentación saludable para el diario vivir. <br><br> NutriOnLife es más que una herramienta, es un estilo de vida.
+                <p>
+            </div>
+        </div>
+
+        <!--Por qué elegir nutriOnlife?-->
+
+        <div class="cont_titulo2">
+            <h2 class="titulo2" id="12">¿Por qué elegir NutriOnlife?</h2>
+        </div>
+
+        <section>
+            <div class="contenedor2">
+                <div class="running">
+                    <img src="../imagenes/iconos/hombre_corriendo.png" alt="hombre_corriendo" class="running_img">
+                    <h3 id="13">Ejercicios desde tu casa y a tu ritmo</h3>
+                    <p id="14">Te brindaremos distintos ejercicios prácticos, sencillos, efectivos para mejorar tus condiciones físicas y tener una vida más activa.</p>
+                </div>
+                <div class="manzana">
+                    <img src="../imagenes/iconos/manzana.png" alt="manzana" class="manzana_img">
+                    <h3 id="15">Dieta personalizada</h3>
+                    <p id="16">Te diseñaremos una saludable dieta personalizada para ayudarte a perder peso de forma rápida y equilibrada,  asi mismo brindandote una serie de ejercicios para mantenerte en forma y mejorar tus condiciones salud.</p>
+                </div>
+
+                <div class="content_nota2">
+                    <p id="17">Recuerda que la mejor opción siempre será visitar a un nutricionista </p>
+                </div>
+            </div>
+        </section>
+
+                <!--Inicio seccion 3-->
+<section class="sec3" >
+    <div class="contenedor3">
+        <div class="h1tex">
+            <h1 id="18">¿Por qué realizar un plan nutricional?</h1>
+        </div>
+        <div class="divh3">
+            <h3 id="19">Porque un plan nutricional le ayudará a:</h3>
+        </div>
+    </div>
+    <div class="divp">
+        <div>
+            <ul>
+                <li id="20">Mejorar su salud física y mental</li>
+                <li id="21">Tener más energía</li>
+                <li id="22">Descansar mejor</li>
+                <li id="23">Disminuir el estrés y la ansiedad</li>
+                <li id="24">Fortalecer los Huesos y músculos</li>
+            </ul>
+    </div>
+
+    <div>
+        <ul>
+            <li id="25">Estimular el sistema inmune</li>
+            <li id="26">Ayudar al funcionamiento del sistema digestivo</li>
+            <li id="27">Reducir el riesgo de las enfermedades del corazón, la diabetes tipo 2 y algunos tipos de cáncer</li>
+        </ul>
+    </div>
+    </div>
+</section>
+
+
+                        <!--Inicio sección 4-->
+                        <section class="contenedor4">
+                            <div class="jugos">
+                                <img src="../imagenes/imagenes_contenido/imagen_jugos.jpg" alt="jugos_naturales" class="jugos_img">
+                                <div class="creditos">
+                                    <p id="28">Imagen extraída de pexels.com</p>
+                                </div>
+                            </div>
+                            <div class="h1p2">
+                                <h1 id="29">Tips para evitar exceso de hambre</h1>
+                                <ul>
+                                    <li id="30">Tomar abundante agua</li>
+                                    <li id="31">Evitar el estrés</li>
+                                    <li id="32">Evitar bebidas azucaradas</li>
+                                    <li id="33">Consuma más fibra</li>
+                                    <li id="34">Coma fruta</li>
+                                </ul>
+                            </div>
+                    </section>
+
+
+        <!--Inicio sección 6-->
+        <section class="seccion6">
+                <div class="titulo6">
+                    <h2 id="35">Alimentos que benefician al cerebro</h2>
+                </div>
+
+                <div class="tex1sec6">
+                    <p id="36">
+                        Una de las principales necesidades del cuerpo para rendir al máximo es a través de una buena alimentación.
+                    A continuación algunos alimentos que benefician a su cerebro:
+                    </p>
+                </div>
+                <div class="lista_sec6">
+                    <div>
+                        <ul>
+                            <li id="37">Nueces</li>
+                            <li id="38">Salmón</li>
+                            <li id="39">Yogurt</li>
+                            <li id="40">Espinaca</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li id="41">Moras</li>
+                            <li id="42">Fresas</li>
+                            <li id="43">Menta</li>
+                            <li id="44">Naranja</li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+
+        <section class="seccion7">
+            <div class="titulo7">  
+                <h2 id="45">Cambios pequeños hacen grandes resultados</h2>
+            </div>
+            <div class="content_nota2">
+                <p id="46">Recuerda que la mejor opción siempre será visitar a un nutricionista </p>
+            </div>
+        </section>
+
+    <!--inicio footer-->
+<footer>
+    <div class="footer">
+         <div class="redes">
+             <div class="iconos_redes">
+                <a href="#"><img src="../imagenes/iconos/facebook.png" alt="logo facebook" class="logo_facebook"></a>  
+                <a href="https://www.instagram.com/nutri0nlife/"><img src="../imagenes/iconos/instagram.jpeg" alt="logo_instagram" class="logo_instagram"></a>  
+            </div>
+            <div class="redes_text">
+                <p id="47">Síguenos en nuestras redes sociales</p>
+            </div>
+            <div class="footer_footer">
+                <div class="copyright">
+                    <p>NutriOnlife©</p>
+                    <p id="48">2022 Todos los derechos reservados</p>
+                </div>
+                <div class="contactenos">
+                    <p id="49">Contáctenos</p>
+                    <hr>
+                    <p>
+                    +503 7898 - 1256 
+                    <br>
+                     nutriOnlifecdb@gmail.com</p>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>
+
+<!--script para boton de idiomas-->
+<script>
+    document.querySelector(".contenedor").addEventListener("click", ()=>{
+    document.querySelector(".opciones").classList.toggle("display");
+    })
+</script>

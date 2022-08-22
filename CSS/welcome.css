@@ -1,0 +1,126 @@
+
+/*inicio de body*/
+
+body {
+    background-image: url(../imagenes/imagenes_contenido/welcome_bg.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*inicio opciones*/
+
+.options_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.option{
+    margin: 15px auto;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: var(--color_gris);
+    border: solid 10px var(--color_verde);
+    border-radius: 15px;
+    transition: .5s;
+
+}
+
+.option:hover {
+    background-color: #fff;
+    transition: .5s ease-in-out;
+}
+
+.option a{
+    color: var(--color_verde);
+    font-family: var(--main-font);
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+}
+
+.option_img {
+    width: 85px;
+    justify-self: flex-start;
+    align-self: flex-start;
+    padding: 15px;
+}
+
+.botones{
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*texto aclaración*/
+.texto_aclaracion {
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.texto_aclaración p {
+    background-color: var(--color_gris);
+    border: solid 10px var(--color_verde);
+    border-radius: 15px;
+    text-align: center;
+    color: var(--color_verde);
+    font-family: var(--main-font);
+    font-size: 25px;
+    padding: 5px;
+}
+
+/*Boton regrsar*/
+.div_back {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.back a {
+    text-decoration: none;
+    color: var(--color_verde);
+    border: solid 10px var(--color_verde);
+    background-color: var(--color_gris);
+    padding: 10px;
+    font-size: 35px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    color: var(--color_verde);
+}
+
+.botonBack:hover {
+    border: solid 10px var(--color_verde);
+    transition: all 0.5s ease-in-out;
+    background-color: #fff;
+}
+
+
+/*creditos*/
+.creditos {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.creditos p {
+    margin-right: 20px;
+    margin-bottom: 26px;
+    color: #fff;
+    font-size: 15px;
+    font-family: var(--main-font);
+    font-weight: bold;
+}

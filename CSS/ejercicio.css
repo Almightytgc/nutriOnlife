@@ -1,0 +1,148 @@
+
+
+body {
+    background-image: url(../imagenes/imagenes_contenido/bg_ejercicios.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*inicio contenido*/
+
+/*icono*/
+.div_icono {
+    width: 100%;
+    margin-top: 180px;
+
+}
+
+.hombre_corriendo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 70px;
+    background-color: var(--color_gris);
+    border: solid 7px var(--color_verde);
+    border-radius: 15px;
+    padding: 10px 25px;
+    
+}
+
+/*opciones de dietas*/
+.contenedor_ejercicios, .contenedor_ejercicios2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.ejercicio {
+    background-color: var(--color_gris);
+    color: var(--color_verde);
+    font-size: 25px;
+    border: solid 7px var(--color_verde);
+    border-radius: 15px;
+    padding: 25px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    width: 300px;
+    text-align: center;
+    transition: .5s;
+}
+
+.ejercicio:hover {
+    background-color: #fff;
+    color: var(--color_verde);
+    transition: 0.5s ease-in-out;
+}
+
+.botones{
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*texto aclaración*/
+.texto_aclaracion {
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.texto_aclaración p {
+    background-color: var(--color_gris);
+    border: solid 10px var(--color_verde);
+    border-radius: 15px;
+    text-align: center;
+    color: var(--color_verde);
+    font-family: var(--main-font);
+    font-size: 25px;
+    padding: 5px;
+}
+
+/*Boton regrsar*/
+.div_back {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+
+.back {
+    border: solid 7px var(--color_verde);
+    background-color: var(--color_gris);
+    padding: 10px;
+    font-size: 35px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    color: var(--color_verde);
+    border-radius: 15px;
+    margin-left: 30px;
+    transition: .5s;
+}
+
+.back a {
+    text-decoration: none;
+    color: var(--color_verde);
+}
+
+.back:hover {
+    border: solid 7px var(--color_verde);
+    transition: all .5s ease-in-out;
+    background-color: #fff;
+}
+
+
+/*creditos*/
+.creditos {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.creditos p {
+    margin-right: 20px;
+    margin-bottom: 26px;
+    color: #fff;
+    font-size: 15px;
+    font-family: var(--main-font);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
