@@ -17,6 +17,16 @@ body {
     overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+    width: 15px;  
+    height: 5px;   
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--color_verde);
+    border-radius: 5px;
+}
+
 /*Agregar esto al body en el archivo exterior de estilo al contenido en caso de que el body lleve fondo */
 
 /*  background-image: url(../imagenes/imagenes_contenido/bg_formularios.jpg);

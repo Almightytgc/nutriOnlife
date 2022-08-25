@@ -22,11 +22,13 @@ body {
 .div_form fieldset {
     background-color: var(--color_gris);
     border: solid var(--color_gris);
+    border-radius: 15px;
 }
 
 .div_form legend {
     margin: auto;
     border: solid 10px var(--color_verde);
+    border-radius: 15px;
     background-color: var(--color_gris);
     color: var(--color_verde);
     padding: 5px 20px;
@@ -46,6 +48,22 @@ body {
 
 .input_form input {
     margin: 0 10px;
+    border: solid #fff 1px;
+    border-radius: 7px;
+    color: var(--color_verde);
+
+}
+
+select {
+    display: flex;
+    justify-content: space-between;
+    color: var(--color_verde);
+    border: solid #fff 1px;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: var(--main-font);
 }
 
 ::placeholder {
@@ -75,6 +93,7 @@ body {
     text-decoration: none;
     color: var(--color_verde);
     border: solid 10px var(--color_verde);
+    border-radius: 15px;
     background-color: var(--color_gris);
     padding: 10px;
     font-size: 35px;
@@ -97,6 +116,7 @@ body {
     text-decoration: none;
     color: var(--color_verde);
     border: solid 10px var(--color_verde);
+    border-radius: 15px;
     background-color: var(--color_gris);
     color: var(--color_verde);
     padding: 10px;
@@ -105,11 +125,7 @@ body {
     font-weight: bold;
 }
 
-.botonBack:hover, .botonCrearCuenta:hover {
-    border: solid 10px var(--color_verde);
-    transition: all 0.5s ease-in-out;
-    background-color: #fff;
-}
+
 
 /*creditos*/
 .creditos {

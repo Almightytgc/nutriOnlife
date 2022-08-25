@@ -8,6 +8,10 @@ body {
     background-attachment: fixed;
 
 }
+a {
+    text-decoration: none;
+    color: var(--color_verde);
+}
 
 /*inicio de nav*/
 nav {
@@ -83,14 +87,11 @@ nav {
 
 
 /*opciones de dietas*/
-.contenedor_dieta, .contenedor_dieta2 {
+.contenedor_dieta{
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .dieta {
@@ -104,6 +105,7 @@ nav {
     font-weight: bold;
     width: 300px;
     text-align: center;
+    margin: 30px auto;
 }
 
 .dieta:hover {

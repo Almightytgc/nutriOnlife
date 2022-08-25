@@ -124,8 +124,8 @@ function traducir (element) {
 //arreglos
 
 //arreglo nav
-let diccionarioNavIngles = ["Home", "Log in", "Change language", "Spanish", "English"];
-let diccionarioNavEspaniol = ["Inicio", "Iniciar sesión", "Cambiar idioma", "Español", "Inglés"];
+let diccionarioNavIngles = ["Sign in", "Log in", "Change language", "Spanish", "English"];
+let diccionarioNavEspaniol = ["Registrarse", "Iniciar sesión", "Cambiar idioma", "Español", "Inglés"];
 
 
 //arreglo seccion 1

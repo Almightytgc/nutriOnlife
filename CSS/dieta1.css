@@ -1,0 +1,136 @@
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    background-image: url(../imagenes/imagenes_contenido/bg_dietas.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.c1{
+    width: 100%;
+    margin-top: 50px;
+}
+.c2{
+    display: flex;
+    background-color: var(--color_gris);
+    color: white;
+    font-size: 25px;
+    width: 200px;
+    height: 100px;
+    border: solid 10px var(--color_verde);
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    margin: 120px auto 0 auto;
+    
+}
+
+h3 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.divp1,
+.divp3,
+.divp5 {
+    padding: 35px;
+    background-color: var(--color_gris);
+    color: white;
+    font-size: 25px;
+    width: 60%;
+    border: solid 10px var(--color_verde);
+    border-radius: 25px;
+    margin: 50px auto;
+}
+
+.naranja_img,
+.pollo_img,
+.frutarara_img {
+    width: 250px;
+    height: 250px;
+}
+
+.imagen1 {
+    display: flex;
+    justify-content: center;
+}
+
+.divh2, .divh4, .divh6 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botones{
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*texto aclaración*/
+.texto_aclaracion {
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.texto_aclaración p {
+    background-color: var(--color_gris);
+    border: solid 10px var(--color_verde);
+    border-radius: 15px;
+    text-align: center;
+    color: var(--color_verde);
+    font-family: var(--main-font);
+    font-size: 25px;
+    padding: 5px;
+}
+
+/*Boton regrsar*/
+.div_back {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.back a {
+    text-decoration: none;
+    color: var(--color_verde);
+    border: solid 10px var(--color_verde);
+    border-radius: 15px;
+    background-color: var(--color_gris);
+    padding: 10px;
+    font-size: 35px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    color: var(--color_verde);
+}
+
+
+/*creditos*/
+.creditos {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.creditos p {
+    margin-right: 20px;
+    margin-bottom: 26px;
+    color: #fff;
+    font-size: 15px;
+    font-family: var(--main-font);
+    font-weight: bold;
+}
+
+
+
